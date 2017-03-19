@@ -8,8 +8,6 @@ import javax.persistence.Entity;
 import tickets.Ticket;
 @Entity
 public class User {
-	
-	private int userId;
 	private String firstName; 
 	private String lastName;
 	private List<Ticket> tickets;
